@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lingfei Toys - Product Catalog Download</title>
+    <style>
+        :root {
+            --primary: #e74c3c;
+            --secondary: #2980b9;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .header {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 5px solid var(--primary);
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .tagline {
+            font-style: italic;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .catalog-section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        h1 {
+            color: var(--dark);
+            margin-bottom: 1.5rem;
+        }
+        .product-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .product-category {
+            background: var(--light);
+            border-left: 4px solid var(--secondary);
+            padding: 1rem;
+            border-radius: 4px;
+            width: 200px;
+            text-align: left;
+        }
+        .product-category h3 {
+            color: var(--secondary);
+            margin-top: 0;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            margin: 1rem 0;
+        }
+        .download-btn:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .file-info {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        .footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .product-highlights {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">HEBEI LINGFEI TOYS</div>
+        <div class="tagline">Quality Ride-On Toys for Children</div>
+    </header>
+
+    <div class="container">
+        <section class="catalog-section">
+            <h1>2024 Product Catalog</h1>
+            <p>Discover our complete range of premium children's ride-on toys, featuring the latest electric cars, motorbikes, ATVs and more.</p>
+            
+            <div class="product-highlights">
+                <div class="product-category">
+                    <h3>Electric Cars</h3>
+                    <p>12+ models with safety features</p>
+                </div>
+                <div class="product-category">
+                    <h3>Electric Motorbikes</h3>
+                    <p>Popular designs for kids</p>
+                </div>
+                <div class="product-category">
+                    <h3>Children ATVs</h3>
+                    <p>New 2024 models</p>
+                </div>
+                <div class="product-category">
+                    <h3>Accessories</h3>
+                    <p>Spare parts & more</p>
+                </div>
+            </div>
+
+            <a href="Catalog.pdf" class="download-btn" download="Lingfei_Toys_Catalog_2024.pdf">
+                Download Full Catalog (PDF)
+            </a>
+            
+            <div class="file-info">
+                <p>File: Catalog.pdf | Size: 2.4MB | Updated: June 2024</p>
+            </div>
+        </section>
+
+        <section class="catalog-section">
+            <h2>About Our Company</h2>
+            <p>Hebei Lingfei Children Toys Co., Ltd is a professional manufacturer located in China's child vehicle production base. With 20+ employees, we specialize in:</p>
+            <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+                <li>Customized production solutions</li>
+                <li>Environmentally friendly materials</li>
+                <li>Strict quality control system</li>
+                <li>Complete one-stop service from production to logistics</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Hebei Lingfei Children Toys Co., Ltd. All Rights Reserved.</p>
+        <p>Providing convenience to customers and win-win is our aim.</p>
+    </footer>
+</body>
+</html>
